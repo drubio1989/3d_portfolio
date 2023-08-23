@@ -1,28 +1,26 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
-  html,
-  css,
   reactjs,
-  redux,
+  rails,
+  ruby,
+  creator,
+  aws,
   tailwind,
   nodejs,
   mongodb,
+  psql,
   git,
-  figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  ssl,
+  synopsys,
+  assemble,
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -33,6 +31,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "testimonials",
+    title: "Testimonials",
   },
   {
     id: "contact",
@@ -51,7 +53,7 @@ const services = [
   },
   {
     title: "Front End Development",
-    icon: backend,
+    icon: creator,
   },
   {
     title: "AWS Cloud Integrations",
@@ -60,14 +62,6 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
   {
     name: "JavaScript",
     icon: javascript,
@@ -81,44 +75,48 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: 'Ruby',
+    icon: ruby,
+  },
+  {
+    name: "Ruby On Rails",
+    icon: rails,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "PostgreSQL",
+    icon: psql,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
+    name: "Docker",
     icon: docker,
   },
+  {
+    name: "AWS",
+    icon: aws
+  }
 ];
 
 const experiences = [
   {
     title: "Full Stack Developer",
     company_name: "Assemble Inc.",
-    icon: starbucks,
+    icon: assemble,
     iconBg: "#383E56",
     date: "Jan 2021 - March 2023",
     points: [
@@ -133,7 +131,7 @@ const experiences = [
   {
     title: "Software Engineer",
     company_name: "SSL.com",
-    icon: tesla,
+    icon: ssl,
     iconBg: "#E6DEDD",
     date: "Oct 2019 - Jan 2021",
     points: [
@@ -148,8 +146,8 @@ const experiences = [
   },
   {
     title: "Software Engineer",
-    company_name: "Synopsis",
-    icon: shopify,
+    company_name: "Synopsys",
+    icon: synopsys,
     iconBg: "#383E56",
     date: "Jan 2014 - Jan 2018",
     points: [
@@ -167,28 +165,60 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Daniel Rubio has consistently demonstrated a remarkable ability to deliver both features and project work punctually. His strong time management skills, coupled with his technical expertise, have ensured that our team meets its deadlines effectively. Daniel's dedication to timely delivery has significantly contributed to the overall success of our projects.",
+    name: "Dave Hayes",
+    designation: "Technical Project Manager",
+    company: "Assemble Inc.",
+    image: "src/assets/testimonials/dave_hayes.png",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Daniel's exceptional work ethic as a software engineer has significantly eased our QA process. His meticulous attention to detail and collaborative approach have streamlined testing efforts, leading to quicker bug identification and smoother releases. His commitment to quality highlights his profound understanding of QA's importance, and his contributions are truly commendable.",
+    name: "Maida Asic",
+    designation: "Lead Software Development Engineer in Test",
+    company: "Assemble Inc.",
+    image: "src/assets/testimonials/maida_asic.png",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Daniel Rubio is an invaluable asset to our team as his work consistently reflects reliability and thoroughness. His meticulous approach to coding and problem-solving ensures that our projects are not only delivered on time but also with a high degree of quality. Daniel's commitment to producing dependable and comprehensive solutions greatly enhances our software development process.",
+    name: "Zack Walkingstick",
+    designation: "Software Developer",
+    company: "Assemble Inc.",
+    image: "src/assets/testimonials/zack_walkingstick.png",
   },
+  {
+    testimonial:
+      "Working alongside Daniel Rubio has been a privilege, as his ability to swiftly adapt and contribute to diverse coding projects is truly impressive. His quick ramp-up time and versatility in collaborating with clients from various industries have consistently led to successful outcomes. Daniel's adeptness at navigating different technical landscapes underscores his prowess as a software engineer.",
+    name: "Jayml Mistry",
+    designation: "Software Engineer",
+    company: "Assemble Inc.",
+    image: "src/assets/testimonials/jayml_mistry.png",
+  },
+  {
+    testimonial:
+      "While ramping up at SSL.com, Daniel's exceptional proficiency in tackling intricate technical challenges is further highlighted by his adeptness in managing substantial tech debt and mission-critical code with sensitivity. His ability to navigate complex problems while ensuring the stability and reliability of critical systems underscores his prowess as a software engineer. Daniel's contributions in addressing multifaceted issues demonstrate his invaluable expertise and dedication to our team's success.",
+    name: "Dustin Ward",
+    designation: "Director of Software Engineering",
+    company: "SSL.com",
+    image: "src/assets/testimonials/dustin_ward.png",
+  },
+  {
+    testimonial:
+      "Daniel was a great asset when I first started at Blackduck with the OpenHub team. He helped me smoothly set up my environment, set me on my way, and even taught me some new tools along the way! My transition starting at Blackduck was made the more easier by Daniel.",
+    name: "Matthew Krasnick",
+    designation: "Principal Software Engineer.",
+    company: "Synopsis Inc.",
+    image: "src/assets/testimonials/matthew.jpeg",
+  },
+  {
+    testimonial:
+      "Working with Daniel has been a pleasure for our team. During the years we've been fortunate to have him with the OpenHub team, he has proven himself to be a quick learner, an effective developer, and a great friend.",
+    name: "Peter Degen Portnoy",
+    designation: "Software Engineer",
+    company: "Synopsis Inc.",
+    image: "src/assets/testimonials/peter.jpeg",
+  }
 ];
 
 const projects = [

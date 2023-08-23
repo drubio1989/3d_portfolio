@@ -20,17 +20,25 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import aws from './tech/aws.png';
+import ruby from './tech/ruby.png';
+import rails from './tech/rails.png';
+import psql from './tech/psql.png'
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import ssl from "./company/ssl.png"
+import synopsys from "./company/synopsys.png"
+import assemble from "./company/assemble.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  aws,
   logo,
   backend,
   creator,
@@ -59,4 +67,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  ssl,
+  assemble,
+  synopsys,
+  ruby,
+  rails,
+  psql
 };

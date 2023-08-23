@@ -40,7 +40,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a passionate tech enthusiast and adept full-stack developer well-versed in the realms of Ruby on Rails, React, SQL, and NoSQL databases.
+         I'm a passionate tech enthusiast and adept full-stack developer well-versed in the realms of Ruby on Rails, React, SQL, and NoSQL databases.
          My technical expertise spans across API development and my proficiency in these technologies allows me to seamlessly bridge the gap between 
          front-end and back-end development and I hold the distinction of being AWS certified, enabling me to seamlessly incorporate AWS cloud integrations 
          into projects. With a fervent love for crafting applications, I thrive on architecting robust systems that not only meet 
