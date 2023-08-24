@@ -33,8 +33,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_8jvl4o8',
+        'template_pisto63',
         {
           from_name: form.name,
           to_name: "JavaScript Mastery",
