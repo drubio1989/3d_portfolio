@@ -21,6 +21,13 @@ import {
   carrent,
   jobit,
   tripguide,
+  dave,
+  maida,
+  zack,
+  jayml,
+  dustin,
+  matthew,
+  peter
 } from "../assets";
 
 export const navLinks = [
@@ -169,7 +176,7 @@ const testimonials = [
     name: "Dave Hayes",
     designation: "Technical Project Manager",
     company: "Assemble Inc.",
-    image: "src/assets/testimonials/dave_hayes.png",
+    image: dave,
   },
   {
     testimonial:
@@ -177,7 +184,7 @@ const testimonials = [
     name: "Maida Asic",
     designation: "Lead Software Development Engineer in Test",
     company: "Assemble Inc.",
-    image: "src/assets/testimonials/maida_asic.png",
+    image: maida,
   },
   {
     testimonial:
@@ -185,7 +192,7 @@ const testimonials = [
     name: "Zack Walkingstick",
     designation: "Software Developer",
     company: "Assemble Inc.",
-    image: "src/assets/testimonials/zack_walkingstick.png",
+    image: zack,
   },
   {
     testimonial:
@@ -193,7 +200,7 @@ const testimonials = [
     name: "Jayml Mistry",
     designation: "Software Engineer",
     company: "Assemble Inc.",
-    image: "src/assets/testimonials/jayml_mistry.png",
+    image: jayml,
   },
   {
     testimonial:
@@ -201,7 +208,7 @@ const testimonials = [
     name: "Dustin Ward",
     designation: "Director of Software Engineering",
     company: "SSL.com",
-    image: "src/assets/testimonials/dustin_ward.png",
+    image: dustin,
   },
   {
     testimonial:
@@ -209,7 +216,7 @@ const testimonials = [
     name: "Matthew Krasnick",
     designation: "Principal Software Engineer.",
     company: "Synopsis Inc.",
-    image: "src/assets/testimonials/matthew.jpeg",
+    image: matthew,
   },
   {
     testimonial:
@@ -217,7 +224,7 @@ const testimonials = [
     name: "Peter Degen Portnoy",
     designation: "Software Engineer",
     company: "Synopsis Inc.",
-    image: "src/assets/testimonials/peter.jpeg",
+    image: peter
   }
 ];
 

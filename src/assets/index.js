@@ -32,10 +32,17 @@ import tesla from "./company/tesla.png";
 import ssl from "./company/ssl.png"
 import synopsys from "./company/synopsys.png"
 import assemble from "./company/assemble.png"
-
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import dave from "./testimonials/dave_hayes.png";
+import maida from "./testimonials/maida_asic.png"
+import zack from "./testimonials/zack_walkingstick.png"
+import jayml from "./testimonials/jayml_mistry.png"
+import dustin from "./testimonials/dustin_ward.png"
+import matthew from "./testimonials/matthew.jpeg"
+import peter from "./testimonials/peter.jpeg"
 
 export {
   aws,
@@ -72,5 +79,12 @@ export {
   synopsys,
   ruby,
   rails,
-  psql
+  psql,
+  dave,
+  maida,
+  zack,
+  jayml,
+  dustin,
+  matthew,
+  peter
 };
