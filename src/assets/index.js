@@ -33,6 +33,7 @@ import ssl from "./company/ssl.png"
 import synopsys from "./company/synopsys.png"
 import assemble from "./company/assemble.png"
 import carrent from "./carrent.png";
+import threads from "./threads.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -67,6 +68,7 @@ export {
   tailwind,
   typescript,
   threejs,
+  threads,
   meta,
   shopify,
   starbucks,
