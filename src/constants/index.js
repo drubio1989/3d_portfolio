@@ -266,6 +266,50 @@ const projects = [
     ],
     image: threads,
     source_code_link: "https://github.com/drubio1989/threads",
+  },{
+    name: "Ipo Notifier",
+    description:
+      "A Next.js frontend application powered completely by AWS serverless services." ,
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "vercel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "dynamodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "api gateway",
+        color: "green-text-gradient",
+      },
+      {
+        name: "aws lambda",
+        color: "green-text-gradient",
+      },
+      {
+        name: "aws eventbridge",
+        color: "green-text-gradient",
+      },
+      {
+        name: "aws ses",
+        color: "green-text-gradient",
+      }
+    ],
+    image: threads,
+    source_code_link: "https://iponotifier.com/",
   }
 ];
 
